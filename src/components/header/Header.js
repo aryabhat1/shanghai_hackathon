@@ -7,9 +7,9 @@ const Header = () => {
             <div className='dashboard'>
                 Dashboard
             </div>
-            <div className='history'>
+            {/* <div className='history'>
                 History
-            </div>
+            </div> */}
 
         </div>
     )

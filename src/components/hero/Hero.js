@@ -19,7 +19,7 @@ const Hero = () => {
                             Current Health Factor
                         </label>
                         <br></br>
-                        <div className='threshold_value'>1.21</div>
+                        <div className='threshold_value'>1.03</div>
                         {/* <input type='number'></input> */}
 
                     </div>
@@ -29,11 +29,11 @@ const Hero = () => {
                     </div>
                     <div>
 
-                    <label for='Current-Liquidation-Threshold'>
-                        Current Liquidation Threshold
-                    </label>
+                        <label for='Desired Health Factor'>
+                            Desired Health Factor
+                        </label>
 
-                    <div className='threshold_value'>1.15</div>
+                        <div className='threshold_value'>1.10</div>
                     </div>
                 </div>
 
@@ -41,10 +41,10 @@ const Hero = () => {
                     <div className='form-container-gas'>
                         <div className="form-container-gas">
                             <span className='Set-Gas-Limit'>
-                                Set your gas limit for the flash loan contract
+                                Set maximum gas price
                             </span>
                             <br></br>
-                            <input className='gas-limit-number'type='number' placeholder='100000'></input>
+                            <input className='gas-limit-number' type='number' placeholder='100000'></input>
                         </div>
                         <button className='submit' type="submit">Update Threshold</button>
                     </div>
@@ -69,10 +69,11 @@ const Hero = () => {
                         <label for='selected tokens'>Tokens: USDC</label>
 
                     </div>
+                    <button className='submit'>Next</button>
 
                 </div>
 
-                <h3>3. Monitoring</h3>
+                <h3>3. Colleteral Health Monitor</h3>
                 <div>
                     <label for='value of token'>Value of Token: </label>
                     <div className='threshold_value'>$ 1.009</div>
