@@ -22,6 +22,9 @@ const HealthFactors = ({ accounts, setAccounts }) => {
             try {
                 const response = await contract.getAaveHealthFactor(BigNumber.from())
             }
+            
         }
     }
 }
+    
+

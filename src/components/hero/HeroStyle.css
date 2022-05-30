@@ -1,15 +1,15 @@
 .container {
   display: flex;
-  /* margin: auto; */
+  margin: auto;
   margin: 20px;
-  width: 180vw;
+  width: 90vw;
 }
 .left-container {
   margin: 20px;
   /* font-size: 25px; */
   /* font-weight: bold; */
   padding: 10px;
-  width: 50vw;
+  width: 30vw;
   font-size: 20px;
   border: 1px solid transparent;
   background-color: #f7fafc;
@@ -26,7 +26,7 @@
 .right-container {
   margin: 20px 80px;
   padding: 10px 30px 30px;
-  width: 90vw;
+  width: 40vw;
   font-size: 25px;
   border: 1px solid transparent;
   background-color: #f7fafc;

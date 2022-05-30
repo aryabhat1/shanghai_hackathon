@@ -20,7 +20,7 @@ const History = () => {
                     <tbody>
                         <tr>
                             <td>31/05/2022 0630</td>
-                            <td><button>USDC</button></td>
+                            <td><button className='usdc'>USDC</button></td>
                             <td>0.15 ETH</td>
                             <td>$ 12,200.67</td>
                             <td>0xc1234wdsdcsasu5tgjhjghsd</td>
@@ -29,7 +29,7 @@ const History = () => {
                         </tr>
                         <tr>
                             <td>31/05/2022 0715</td>
-                            <td><button>USDC</button></td>
+                            <td><button className='usdc'>USDC</button></td>
                             <td>0.17 ETH</td>
                             <td>$ 1,560.66</td>
                             <td>0xcbcbcbvcbcsas1233dasdasd</td>
