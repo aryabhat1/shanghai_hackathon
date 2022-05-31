@@ -4,6 +4,7 @@ import './HistoryStyle.css';
 const History = () => {
     return (
         <div className='history-container'>
+            
             <h2>History of Transactions</h2>
             <table>
                 <thread>
@@ -11,7 +12,7 @@ const History = () => {
                         <th>Time Stamp</th>
                         <th>Assets Transfered</th>
                         <th>Transaction Fees</th>
-                        <th>Colleteral Sent(ETH)</th>
+                        <th>Collateral Sent(ETH)</th>
                         <th>Transaction Hash</th>
 
 
@@ -19,7 +20,7 @@ const History = () => {
 
                     <tbody>
                         <tr>
-                            <td>31/05/2022 0630</td>
+                            <td>30/05/2022 1300</td>
                             <td><button className='usdc'>USDC</button></td>
                             <td>0.15 ETH</td>
                             <td>$ 12,200.67</td>
@@ -28,7 +29,7 @@ const History = () => {
 
                         </tr>
                         <tr>
-                            <td>31/05/2022 0715</td>
+                            <td>31/05/2022 0630</td>
                             <td><button className='usdc'>USDC</button></td>
                             <td>0.17 ETH</td>
                             <td>$ 1,560.66</td>

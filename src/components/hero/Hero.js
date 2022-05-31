@@ -73,10 +73,13 @@ const Hero = () => {
 
                 </div>
 
-                <h3>3. Colleteral Health Monitor</h3>
+                <h3>3. Collateral Health Monitor</h3>
                 <div>
                     <label for='value of token'>Value of Token: </label>
                     <div className='threshold_value'>$ 1.009</div>
+                </div>
+                <div>
+                    <button className='submit-monitoring'>Start Monitoring</button>
                 </div>
 
             </div>
